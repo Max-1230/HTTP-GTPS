@@ -1,3 +1,4 @@
 # required
-> "node-fetch": "^2.6.7"
-> "readline-sync": "^1.4.10"
+> "node-fetch@^2.6.7"
+
+> "readline-sync@^1.4.10"

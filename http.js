@@ -17,12 +17,12 @@ const options = {
   };
   
   https.createServer(options, function (req, res) {
-    res.write("server|" + ip + "\nport|" + port + "\ntype|1\n#maint|Oke\nmeta|TENET\nRTENDMARKERBS1001");
+    res.write("server|" + ip + "\nport|" + port + "\ntype|1\n#maint|Oke\nmeta|" + meta + "\nRTENDMARKERBS1001");
     res.end();
   }).listen(443);
   
   http.createServer(options, function (req, res) {
-    res.write("server|" + ip + "\nport|" + port + "\ntype|1\n#maint|Oke\nmeta|TENET\nRTENDMARKERBS1001");
+    res.write("server|" + ip + "\nport|" + port + "\ntype|1\n#maint|Oke\nmeta|" + meta + "\nRTENDMARKERBS1001");
     res.end();
   }).listen(80);
   
